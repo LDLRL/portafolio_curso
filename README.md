@@ -1,13 +1,13 @@
 # 🎓 Portafolio del Curso – Fundamentos de Ingeniería de Datos
 
-¡Bienvenidos a mi portafolio de aprendizajes!  
+¡Bienvenidos a mi portafolio de aprendizaje!  
 Este repositorio reúne las actividades, ejercicios y proyectos desarrollados a lo largo del curso **Fundamentos de Ingeniería de Datos**. Está organizado por módulos temáticos, y busca reflejar mi progreso y consolidación de habilidades en los temas desarrollados.
 
 ---
 
 ## 📁 Estructura del portafolio
 
-Este portafolio está dividido por módulos. Cada carpeta contiene los archivos, notebooks y recursos correspondientes a las lecciones de ese módulo y proyectos de módulo.
+Este portafolio está dividido por módulos. Cada carpeta contiene los archivos, proyectos, notebooks y recursos correspondientes a las lecciones de ese módulo.
 
 ---
 
