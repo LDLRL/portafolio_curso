@@ -93,8 +93,8 @@ Simulación de una situación real de una empresa de e-commerce que necesita pre
 
 - `modulo3_proyecto.ipynb`: Notebook con todo el código y explicaciones.
 - `dataset_final.csv` y `dataset_final.xlsx`: Dataset estructurado y listo para análisis.
-- `documento_resumen.md`: Documento que explica cada etapa del proceso.
-- `ejercicios de clase de cada lección: Notebooks con todo el código y explicaciones.
+- `readme.md`: Documento que explica cada etapa del proceso.
+- `ejercicios de clase de cada lección`: Notebooks con todo el código y explicaciones.
 
 ---
 
