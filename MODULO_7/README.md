@@ -1,4 +1,4 @@
-# 📚 Módulo 7 – Procesamiento Distribuido y Big Data con Apache Spark
+# 📚 Módulo 7 – Procesamiento Distribuido y sistemas Big Data
 
 Este README documenta todo el trabajo realizado en el Módulo 7 del curso de Fundamentos de Ingeniería de Datos. El módulo se enfocó en comprender y aplicar el ecosistema Big Data mediante la herramienta Apache Spark, abordando conceptos fundamentales, ejercicios prácticos y un proyecto final integrador.
 
@@ -44,34 +44,60 @@ A lo largo de las seis lecciones se abordaron los siguientes temas clave:
 
 ## 🧪 Parte 2: Ejercicios de Clase (Notebook MODULO_7.ipynb)
 
-Cada ejercicio se desarrolló de manera práctica en Google Colab utilizando PySpark.
+Cada ejercicio se desarrolló de manera práctica en Google Colab.
 
-### ✅ Ejercicio 1: Comparación RDD vs DataFrame
-- Carga de datos desde CSV
-- Uso de `map()` y `filter()` con RDD
-- Cálculo de promedio, mínimo, máximo
-- Transformación a DataFrame y uso de funciones agregadas
 
-### ✅ Ejercicio 2: Consultas con Spark SQL
-- Creación de vistas temporales con `.createOrReplaceTempView()`
-- Consultas SQL directas (`spark.sql`)
-- Ejemplo: conteo por categoría
+🔹 Lección 1: Lectura y exploración de archivos en Spark
 
-### ✅ Ejercicio 3: Funciones definidas por el usuario (UDF)
-- Creación de UDF con `@udf`
-- Aplicación sobre DataFrame
-- Ejemplo: clasificar temperatura de sensores como “Alerta”
+- Análisis del caso real de una aerolínea para identificar las 5V’s de Big Data.
 
-### ✅ Ejercicio 4: Procesamiento en Streaming
-- Configuración de socket TCP
-- Lectura de flujo en tiempo real con `.readStream`
-- Agregación por ventana de 10 minutos con watermark
-- Conteo por palabra
+- Propuesta de herramientas adecuadas para gestionar Volumen, Velocidad, Variedad, Veracidad y Valor.
 
-### ✅ Ejercicio 5: Entrenamiento de modelo ML
-- Preprocesamiento: StringIndexer y VectorAssembler
-- Entrenamiento con `RandomForestClassifier`
-- Evaluación con `MulticlassClassificationEvaluator`
+- Ejercicio de diseño de una arquitectura Big Data mínima, con tecnologías como Kafka, Spark, S3, Cassandra, etc.
+
+
+🔹 Lección 2: Componentes de Apache Spark
+
+- Identificación del rol del Driver, Executors y Cluster Manager.
+
+- Representación gráfica del procesamiento distribuido.
+
+- Justificación de uso de Spark frente a otras tecnologías como Hadoop, Flink o Hive.
+
+
+🔹 Lección 3: Comparación RDD vs DataFrame
+
+- Lectura de CSV y procesamiento con RDD (map(), filter()).
+
+- Transformación a DataFrame y aplicación de funciones agregadas.
+
+
+🔹 Lección 4: Consultas con Spark SQL
+
+- Creación de vistas temporales.
+
+- Ejecución de consultas SQL sobre DataFrames.
+
+- Ejemplos prácticos: conteo por categoría.
+
+
+🔹 Lección 5: Procesamiento en Streaming
+
+- Lectura de eventos desde socket TCP en tiempo real.
+
+- Aplicación de ventanas de 10 minutos con watermark de 5 minutos.
+
+- Conteo de palabras en tiempo real.
+
+
+🔹 Lección 6: Entrenamiento de modelo ML
+
+- Preprocesamiento con StringIndexer y VectorAssembler.
+
+- Entrenamiento con RandomForestClassifier.
+
+- Evaluación con MulticlassClassificationEvaluator.
+
 
 ---
 
